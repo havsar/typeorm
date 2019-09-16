@@ -203,7 +203,7 @@ export class OracleDriver implements Driver {
      *
      * > If COMPATIBLE is set to a value of 12.2 or higher, then names must be from 1 to 128 bytes long with these exceptions
      */
-    maxAliasLength = 30;
+    maxAliasLength = 15;
 
     // -------------------------------------------------------------------------
     // Constructor
